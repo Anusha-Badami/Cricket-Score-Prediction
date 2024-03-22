@@ -1,7 +1,12 @@
 CRICKET SCORE PREDICTION
 
-Dataset Columns:-
+Problem Statement:-
+Cricket Score Prediction using Machine Learning
 
+Objective:-
+The objective of this project is to develop a machine learning model that can accurately predict cricket scores based on historical match data
+
+Dataset Columns:-
 mid: Each match is assigned a unique identification number.
 date: Indicates the date when the match took place.
 venue: Refers to the stadium where the match is being conducted.
@@ -19,12 +24,10 @@ non-striker: Refers to the batsman with the lower number of runs between the str
 total: Denotes the total runs scored by the batting team after completing their first innings.
 
 Algorithms Used:-
-
 Linear Regression 
 Random Forest Regression 
 
 Features and Label Used:-
-
 Features: [runs,wickets,overs,striker,non-striker]
 Label: [total]
 
